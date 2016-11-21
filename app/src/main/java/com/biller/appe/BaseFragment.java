@@ -15,7 +15,6 @@ import android.widget.Button;
 public class BaseFragment extends Fragment {
     public static final String ARGS_INSTANCE = "com.ncapdevi.sample.argsInstance";
 
-    Button mButton;
     FragmentNavigation mFragmentNavigation;
     int mInt = 0;
 
@@ -30,7 +29,6 @@ public class BaseFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-        mButton = (Button) view.findViewById(R.id.button);
         return view;
     }
 
