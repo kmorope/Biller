@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_presupuesto"
+        icon="@drawable/ic_chart_areaspline_white_24dp"
+        barColorWhenSelected="#388E3C"
+        title="Presupuesto" />
+    <tab
+        id="@+id/tab_dashboard"
+        icon="@drawable/ic_bulletin_board_white_24dp"
+        barColorWhenSelected="#d32f2f"
+        title="Dashboard" />
+    <tab
+        id="@+id/tab_categories"
+        icon="@drawable/ic_dictionary_white_24dp"
+        barColorWhenSelected="#7B1FA2"
+        title="Categorias" />
+    <tab
+        id="@+id/tab_perfil"
+        icon="@drawable/ic_comment_account_white_24dp"
+        barColorWhenSelected="#1976D2"
+        title="Perfil" />
+</tabs>
